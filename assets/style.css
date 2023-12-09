@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    font-family: Work Sans;
+    font-style: normal;
+}
+
+.header {
+    background: url("/design/new/images/banner/banner1.png") lightgray;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 800px;
+    margin-bottom: 140px;
+}
+.heading {
+    text-align: right;
+    padding: 216px 230px 0 845px;
+}
+.heading-title {
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 24px;
+}
+
+.heading_description {
+    color: var(--Dark-02, #444343);
+    margin-bottom: 32px;
+    line-height: 26px;
+}
+.primary-btn {
+    background-color: #f15b22;
+    border-radius: 5px;
+    padding: 20px 25px;
+    color: #fff;
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    border-style: none;
+}
+
+.logo {
+    background: url("/design/new/images/person.png") no-repeat;
+    background-position: 25% 75%;
+
+    height: 800px;
+    width: auto;
+}
+.failures {
+    padding: 270px 300px 0 862px;
+}
+.failures-title {
+    color: var(--Dark-01, #151414);
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+.failures-description {
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 100;
+    color: var(--Dark-02, #444343);
+}
+
+.failures-list p {
+    color: var(--Dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.graphics {
+    vertical-align: middle;
+}
+#planes {
+    text-align: center;
+    color: var(--Dark-01, #151414);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 56px;
+    margin-top: 193px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+}
+.my-planes {
+    margin-bottom: 200px;
+}
+
+.gradients {
+    margin: 0 230px 0 230px;
+    max-width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+        url(/design/new/images/watch.png) no-repeat;
+}
+.items {
+    padding: 50px 0 60px 64px;
+}
+.gradients-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 24px;
+}
+.gradients .primary-btn {
+    background-color: #fff;
+    color: #f15b22;
+}
+.foot {
+    margin-top: 130px;
+    width: 1600px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.future {
+    padding: 130px 0 130px 0;
+    width: 485px;
+}
+.future-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.future-description {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    font-style: normal;
+}
+.description-2 {
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+.description-3 {
+    padding-bottom: 16px;
+}
+
+.subscribe {
+    padding-right: 22px;
+    padding: 130px 22px 0;
+}
+.subscribe-title {
+    color: #fff;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 31px;
+}
+.email {
+    color: var(--Dark-07, #f3f3f3);
+    background: var(--Dark-01, #151414);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 15px;
+    padding: 21px 22px;
+}
+.btn1 .primary-btn {
+    border-radius: 8px;
+    background: #fff;
+    color: #f15b22;
+    padding: 20px 36px;
+}
