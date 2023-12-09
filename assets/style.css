@@ -5,7 +5,7 @@
 }
 
 .header {
-    background: url("/design/new/images/banner/banner1.png") lightgray;
+    background: url("../assets/images/banner/banner1.png") lightgray;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     width: 100%;
     height: 800px;
@@ -39,7 +39,7 @@
 }
 
 .logo {
-    background: url("/design/new/images/person.png") no-repeat;
+    background: url("../assets/images/person.png") no-repeat;
     background-position: 25% 75%;
 
     height: 800px;
@@ -94,7 +94,7 @@
     height: 300px;
     border-radius: 8px;
     background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
-        url(/design/new/images/watch.png) no-repeat;
+        url(../assets/images/watch.png) no-repeat;
 }
 .items {
     padding: 50px 0 60px 64px;
